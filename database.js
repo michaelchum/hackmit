@@ -6,7 +6,7 @@ var USER_LIST_LOCATION = 'https://cheapcheep.firebaseio.com/user_list';
 var EMAIL_INDEX = 'https://cheapcheep.firebaseio.com/email_index';
 var PHONE_INDEX = 'https://cheapcheep.firebaseio.com/phone_index';
 var KEYWORDS_INDEX = 'https://cheapcheep.firebaseio.com/keywords_index';
-
+/*
 // Initialize firebase
 var Firebase = require('firebase');
 var userList = new Firebase(USER_LIST_LOCATION);
@@ -26,3 +26,6 @@ userList.on('child_changed', function(snapshot) {
   	keywordsList.child(userData.keywords[i]).set({userID: userID});
   }
 });
+*/
+
+dealSMS();

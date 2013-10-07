@@ -12,7 +12,7 @@ module.exports = function sms(){
 	client.sms.messages.create({
 		to:'+15146210791',
 		from:'14387937949',
-		body:'ahoy hoy! Testing Twilio and node.js'}, 
+		body:'vote 3242, Michael Ho'}, 
 		function(error, message) {
 			// The HTTP request to Twilio will run asynchronously. This callback
 			// function will be called when a response is received from Twilio
